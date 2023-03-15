@@ -1,6 +1,6 @@
 # package-management-installtion
 
-#Change host-name for ubuntu on wsl:
+# Change host-name for ubuntu on wsl:
 ====================================
 
 **When using WSL, you must create a configuration file to change the hostname. 
