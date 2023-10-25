@@ -1,15 +1,17 @@
 # package-management-installtion
 
-### Change host-name for ubuntu on wsl:
-====================================
+## Change host-name for ubuntu on wsl:
 
-**When using WSL, you must create a configuration file to change the hostname. 
+
+When using WSL, you must create a configuration file to change the hostname. 
 Use your editor to create a */etc/wsl.conf* file.
 
-```sudo vi/vim /etc/wsl.conf```
+```
+sudo vi/vim /etc/wsl.conf
+```
 
-#### Once the config file opens, add the following lines:
-=====================================================
+## Once the config file opens, add the following lines:
+
 ```
 [network]
 hostname = <your-new-hostname>
